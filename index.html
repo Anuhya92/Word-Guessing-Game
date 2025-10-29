@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/2910/2910768.png"
+          alt="Logo"
+        />
+        WordMaster 🧩
+      </div>
+      <div class="header-buttons">
+        <button id="loginBtn">Login</button>
+        <button id="logoutBtn" disabled>Logout</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="game-container">
+        <h1>Word Guessing Game</h1>
+        <p>
+          Welcome to <strong>WordMaster</strong> — a fun and challenging word
+          guessing game! Test your vocabulary by guessing a secret word one
+          letter at a time. You’ll receive a helpful hint for each word.
+        </p>
+
+        <div class="difficulty-info">
+          <div class="difficulty-card">
+            <h3>😊 Easy</h3>
+            <p>12 Attempts</p>
+          </div>
+          <div class="difficulty-card">
+            <h3>🤔 Medium</h3>
+            <p>8 Attempts</p>
+          </div>
+          <div class="difficulty-card">
+            <h3>😤 Hard</h3>
+            <p>5 Attempts</p>
+          </div>
+        </div>
+
+        <button id="startGameBtn" disabled>Start Game</button>
+      </div>
+    </main>
+
+    <footer>
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/2910/2910768.png"
+        alt="Logo"
+      />
+      Created for WordMaster © 2025
+    </footer>
+  </body>
+</html>
